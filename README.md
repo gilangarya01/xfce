@@ -9,5 +9,5 @@ This repository contains my personal configuration files (dotfiles) for Arch Lin
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/gilangarya01/arch-xfce-dotfiles.git ~/
+   git clone https://github.com/gilangarya01/xfce-dotfiles.git ~/
     ```
