@@ -4,9 +4,13 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/gilang/Pictures/Wallpaper/elias.jpg"/>
+        <property name="image-path" type="string" value="/home/gilang/Pictures/Wallpaper/a_cartoon_of_a_girl_sitting_on_a_porch_in_the_rain.png"/>
         <property name="image-style" type="int" value="3"/>
         <property name="image-show" type="bool" value="true"/>
+        <property name="workspace0" type="empty">
+          <property name="last-image" type="string" value="/home/gilang/Pictures/walls/a_cartoon_of_a_girl_sitting_on_a_porch_in_the_rain.png"/>
+          <property name="image-style" type="int" value="3"/>
+        </property>
       </property>
       <property name="monitor1" type="empty">
         <property name="image-path" type="string" value="/usr/share/backgrounds/default23.png"/>
@@ -49,7 +53,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/gilang/Pictures/Wallpaper/elias.jpg"/>
+          <property name="last-image" type="string" value="/home/gilang/Pictures/Wallpaper/a_cartoon_of_a_girl_sitting_on_a_porch_in_the_rain.png"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>

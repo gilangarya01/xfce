@@ -20,4 +20,8 @@
   <property name="misc-highlighting-enabled" type="bool" value="false"/>
   <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
+  <property name="shortcuts-icon-emblems" type="bool" value="true"/>
+  <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
+  <property name="misc-file-size-binary" type="bool" value="true"/>
+  <property name="misc-thumbnail-max-file-size" type="uint64" value="10485760"/>
 </channel>

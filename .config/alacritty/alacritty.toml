@@ -27,7 +27,7 @@ magenta = '#FF1493'
 cyan    = '#00CCCC'
 white   = '#FFFAFA'
 
-[shell]
+[terminal.shell]
 program = "zsh"
 args = ["-c", "~/.scripts/startup_terminal.sh; exec /bin/zsh"]
 
@@ -65,3 +65,5 @@ blinking = "On"
 
 [env]
 term = "xterm-256color"
+
+[terminal]

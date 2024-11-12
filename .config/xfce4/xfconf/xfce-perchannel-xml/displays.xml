@@ -39,7 +39,7 @@
       </property>
     </property>
   </property>
-  <property name="ActiveProfile" type="string" value="Fallback"/>
+  <property name="ActiveProfile" type="string" value="Default"/>
   <property name="Fallback" type="empty">
     <property name="Virtual1" type="string" value="Virtual1">
       <property name="Active" type="bool" value="true"/>
@@ -61,8 +61,8 @@
     <property name="eDP-1" type="string" value="Laptop">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="5d9bd849b06228128e181cafdec100658aa44d59"/>
-      <property name="Resolution" type="string" value="1024x768"/>
-      <property name="RefreshRate" type="double" value="60.037333573227777"/>
+      <property name="Resolution" type="string" value="1366x768"/>
+      <property name="RefreshRate" type="double" value="60.003140703517587"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>

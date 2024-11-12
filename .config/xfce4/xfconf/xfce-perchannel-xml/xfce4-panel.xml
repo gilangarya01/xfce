@@ -4,9 +4,9 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
-    <property name="dark-mode" type="bool" value="false"/>
+    <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=683;y=748"/>
+      <property name="position" type="string" value="p=8;x=683;y=747"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
@@ -34,16 +34,20 @@
         <value type="int" value="13"/>
         <value type="int" value="2"/>
       </property>
-      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="enter-opacity" type="uint" value="90"/>
       <property name="background-style" type="uint" value="0"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="1"/>
-        <value type="double" value="1"/>
-        <value type="double" value="1"/>
+        <value type="double" value="0.59999999999999998"/>
+        <value type="double" value="0.75686274509803919"/>
+        <value type="double" value="0.94509803921568625"/>
         <value type="double" value="1"/>
       </property>
       <property name="autohide-behavior" type="uint" value="1"/>
       <property name="mode" type="uint" value="0"/>
+      <property name="background-image" type="string" value="file:///home/gilang/Pictures/Wallpaper/panel_bg.png"/>
+      <property name="leave-opacity" type="uint" value="90"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -71,7 +75,7 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu">
-      <property name="button-icon" type="string" value="archlinux-logo"/>
+      <property name="button-icon" type="string" value="draw-spiral"/>
       <property name="button-single-row" type="bool" value="true"/>
       <property name="launcher-show-name" type="bool" value="true"/>
       <property name="launcher-show-description" type="bool" value="false"/>
@@ -84,7 +88,7 @@
       <property name="profile-shape" type="int" value="2"/>
       <property name="menu-width" type="int" value="390"/>
       <property name="menu-height" type="int" value="512"/>
-      <property name="menu-opacity" type="int" value="0"/>
+      <property name="menu-opacity" type="int" value="100"/>
       <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
       <property name="show-command-menueditor" type="bool" value="false"/>
       <property name="show-command-profile" type="bool" value="false"/>
@@ -95,21 +99,24 @@
         <value type="string" value="xfce-backdrop-settings.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="xfce-mouse-settings.desktop"/>
-        <value type="string" value="xfce-display-settings.desktop"/>
-        <value type="string" value="discord.desktop"/>
-        <value type="string" value="an-anime-game-launcher.desktop"/>
-        <value type="string" value="cachyos-hello.desktop"/>
-        <value type="string" value="htop.desktop"/>
+        <value type="string" value="kazam.desktop"/>
+        <value type="string" value="com.github.wwmm.easyeffects.desktop"/>
+        <value type="string" value="io.mrarm.mcpelauncher.desktop"/>
+        <value type="string" value="com.obsproject.Studio.desktop"/>
         <value type="string" value="the-honkers-railway-launcher.desktop"/>
-        <value type="string" value="net.lutris.tcg-card-shop-simulator-1.desktop"/>
-        <value type="string" value="net.lutris.Lutris.desktop"/>
-        <value type="string" value="wuwa--harmonic_loader--1726827820.644337.desktop"/>
+        <value type="string" value="xfce-session-settings.desktop"/>
+        <value type="string" value="xfce4-mime-settings.desktop"/>
+        <value type="string" value="an-anime-game-launcher.desktop"/>
+        <value type="string" value="htop.desktop"/>
+        <value type="string" value="thunar-settings.desktop"/>
       </property>
       <property name="show-button-icon" type="bool" value="true"/>
       <property name="show-button-title" type="bool" value="false"/>
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="view-mode" type="int" value="1"/>
+      <property name="position-profile-alternate" type="bool" value="false"/>
+      <property name="position-categories-alternate" type="bool" value="false"/>
+      <property name="default-category" type="int" value="2"/>
     </property>
     <property name="plugin-1" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -140,7 +147,7 @@
       <property name="enable-wnck" type="bool" value="false"/>
       <property name="enable-multimedia-keys" type="bool" value="false"/>
       <property name="enable-mpris" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chromium"/>
+      <property name="known-players" type="string" value="Chromium;firefox"/>
       <property name="items" type="array">
         <value type="string" value="17267087611.desktop"/>
         <value type="string" value="17214574671.desktop"/>
@@ -188,6 +195,13 @@
     </property>
     <property name="plugin-18" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “4g” active: 4g (83%)"/>
+        <value type="string" value="wi-fi network connection “4g” active: 4g (82%)"/>
+        <value type="string" value="wi-fi network connection “4g” active: 4g (84%)"/>
+        <value type="string" value="powermode-indicator"/>
+        <value type="string" value="wi-fi network connection “4g” active: 4g (73%)"/>
+        <value type="string" value="wi-fi network connection “4g” active: 4g (66%)"/>
+        <value type="string" value="wi-fi network connection “4g” active: 4g (74%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (81%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (80%)"/>
         <value type="string" value="udiskie"/>
@@ -203,6 +217,9 @@
         <value type="string" value="wi-fi network connection “4g” active: 4g (79%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="kazam"/>
+        <value type="string" value="powermode-indicator"/>
+        <value type="string" value="SimpleScreenRecorder"/>
         <value type="string" value="steam"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="obs"/>
