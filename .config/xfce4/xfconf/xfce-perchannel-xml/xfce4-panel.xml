@@ -34,7 +34,7 @@
         <value type="int" value="13"/>
         <value type="int" value="2"/>
       </property>
-      <property name="enter-opacity" type="uint" value="90"/>
+      <property name="enter-opacity" type="uint" value="100"/>
       <property name="background-style" type="uint" value="0"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.59999999999999998"/>
@@ -45,7 +45,7 @@
       <property name="autohide-behavior" type="uint" value="1"/>
       <property name="mode" type="uint" value="0"/>
       <property name="background-image" type="string" value="file:///home/gilang/Pictures/Wallpaper/panel_bg.png"/>
-      <property name="leave-opacity" type="uint" value="90"/>
+      <property name="leave-opacity" type="uint" value="100"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="nrows" type="uint" value="1"/>
     </property>
@@ -99,14 +99,14 @@
         <value type="string" value="xfce-backdrop-settings.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="the-honkers-railway-launcher.desktop"/>
-        <value type="string" value="com.usebottles.bottles.desktop"/>
         <value type="string" value="an-anime-game-launcher.desktop"/>
+        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
+        <value type="string" value="the-honkers-railway-launcher.desktop"/>
+        <value type="string" value="wuwa--harmonic_loader--1731343395.52178.desktop"/>
+        <value type="string" value="com.usebottles.bottles.desktop"/>
         <value type="string" value="io.mrarm.mcpelauncher.desktop"/>
         <value type="string" value="micro.desktop"/>
-        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
-        <value type="string" value="wuwa--harmonic_loader--1731343395.52178.desktop"/>
         <value type="string" value="sleepy-launcher.desktop"/>
         <value type="string" value="htop.desktop"/>
       </property>
