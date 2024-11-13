@@ -99,16 +99,16 @@
         <value type="string" value="xfce-backdrop-settings.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="kazam.desktop"/>
-        <value type="string" value="com.github.wwmm.easyeffects.desktop"/>
-        <value type="string" value="io.mrarm.mcpelauncher.desktop"/>
-        <value type="string" value="com.obsproject.Studio.desktop"/>
         <value type="string" value="the-honkers-railway-launcher.desktop"/>
-        <value type="string" value="xfce-session-settings.desktop"/>
-        <value type="string" value="xfce4-mime-settings.desktop"/>
+        <value type="string" value="com.usebottles.bottles.desktop"/>
         <value type="string" value="an-anime-game-launcher.desktop"/>
+        <value type="string" value="io.mrarm.mcpelauncher.desktop"/>
+        <value type="string" value="micro.desktop"/>
+        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="wuwa--harmonic_loader--1731343395.52178.desktop"/>
+        <value type="string" value="sleepy-launcher.desktop"/>
         <value type="string" value="htop.desktop"/>
-        <value type="string" value="thunar-settings.desktop"/>
       </property>
       <property name="show-button-icon" type="bool" value="true"/>
       <property name="show-button-title" type="bool" value="false"/>
@@ -195,6 +195,7 @@
     </property>
     <property name="plugin-18" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “4g” active: 4g (85%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (83%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (82%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (84%)"/>
