@@ -92,10 +92,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-export NVM_DIR="$HOME/.config/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Set personal aliases, overriding those provided by Oh My Zsh libs,
 # plugins, and themes. Aliases can be placed here, though Oh My Zsh
 # users are encouraged to define aliases within a top-level file in
@@ -118,8 +114,7 @@ alias start='sudo systemctl start '
 alias stop='sudo systemctl stop '
 
 #MPV
-alias mpv="mpv "
-alias music="-v --ytdl-format=ba --loop"
+alias music='~/.scripts/music.sh'
 
 # Mongodb
 alias mongodb='~/.scripts/mongodb.sh'
@@ -151,4 +146,23 @@ alias record='/home/gilang/.scripts/record_ffmpeg.sh'
 # Docker
 alias cleandock='docker rm -f $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker volume rm $(docker volume ls -q) && docker network rm $(docker network ls -q)'
 
+alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias fixpacman="sudo rm /var/lib/pacman/db.lck"
+alias hw='hwinfo --short'                                   # Hardware Info
+alias update='sudo pacman -Syu'
+alias mirror="sudo cachyos-rate-mirrors"
+alias ls='eza -al --color=always --group-directories-first --icons' # preferred listing
 
+# Cleanup orphaned packages
+alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
+
+# Get the error messages from journalctl
+alias jctl="journalctl -p 3 -xb"
+
+# Neovim Config
+alias viconf="cd ~/.config/nvim"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
