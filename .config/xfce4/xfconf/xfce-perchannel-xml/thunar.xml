@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="thunar" version="1.0">
   <property name="last-view" type="string" value="ThunarIconView"/>
@@ -24,4 +24,12 @@
   <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
   <property name="misc-file-size-binary" type="bool" value="true"/>
   <property name="misc-thumbnail-max-file-size" type="uint64" value="10485760"/>
+  <property name="misc-exec-shell-scripts-by-default" type="string" value="THUNAR_EXECUTE_SHELL_SCRIPT_NEVER"/>
+  <property name="misc-change-window-icon" type="bool" value="true"/>
+  <property name="misc-use-csd" type="bool" value="false"/>
+  <property name="misc-thumbnail-draw-frames" type="bool" value="false"/>
+  <property name="tree-icon-emblems" type="bool" value="true"/>
+  <property name="misc-symbolic-icons-in-sidepane" type="bool" value="true"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
 </channel>

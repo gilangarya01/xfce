@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfwm4" version="1.0">
   <property name="general" type="empty">
-    <property name="theme" type="string" value="Orchis-Teal-Dark-Compact"/>
+    <property name="theme" type="string" value="WhiteSur-Dark"/>
     <property name="button_layout" type="string" value="O|HMC"/>
     <property name="activate_action" type="string" value="bring"/>
     <property name="borderless_maximize" type="bool" value="true"/>
@@ -87,5 +87,7 @@
       <value type="string" value="3"/>
       <value type="string" value="4"/>
     </property>
+    <property name="margin_top" type="int" value="0"/>
+    <property name="margin_bottom" type="int" value="0"/>
   </property>
 </channel>
