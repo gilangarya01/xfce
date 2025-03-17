@@ -56,7 +56,7 @@
       <property name="mode" type="uint" value="2"/>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu">
-      <property name="button-icon" type="string" value="web-browser"/>
+      <property name="button-icon" type="string" value="xfce4-whiskermenu"/>
       <property name="button-single-row" type="bool" value="true"/>
       <property name="launcher-show-name" type="bool" value="true"/>
       <property name="launcher-show-description" type="bool" value="false"/>
@@ -81,15 +81,15 @@
       </property>
       <property name="recent" type="array">
         <value type="string" value="sleepy-launcher.desktop"/>
-        <value type="string" value="cachyos-hello.desktop"/>
-        <value type="string" value="net.lutris.Lutris.desktop"/>
         <value type="string" value="an-anime-game-launcher.desktop"/>
-        <value type="string" value="xfce4-appfinder.desktop"/>
-        <value type="string" value="org.gnome.FileRoller.desktop"/>
+        <value type="string" value="net.lutris.Lutris.desktop"/>
         <value type="string" value="htop.desktop"/>
-        <value type="string" value="lightdm-gtk-greeter-settings.desktop"/>
-        <value type="string" value="xfce-ui-settings.desktop"/>
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="cachyos-hello.desktop"/>
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+        <value type="string" value="net.lutris.wuthering-waves-1.desktop"/>
+        <value type="string" value="octopi-cachecleaner.desktop"/>
+        <value type="string" value="org.gnome.FileRoller.desktop"/>
+        <value type="string" value="org.x.editor.desktop"/>
       </property>
       <property name="show-button-icon" type="bool" value="true"/>
       <property name="show-button-title" type="bool" value="false"/>
@@ -137,6 +137,8 @@
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-18" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “4g” active: 4g (75%)"/>
+        <value type="string" value="wi-fi network connection “4g” active: 4g (82%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (80%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (79%)"/>
         <value type="string" value="wi-fi network connection “4g” active: 4g (81%)"/>
